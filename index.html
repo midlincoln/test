@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TODO App</title>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container center">
+      <h1 class="center title">My TODO App</h1>
+	  
+	  <input type="text"  class="center" id="input"  value="" placeholder="Enter Task..."/>
+	  <button class="button center" onClick="newTodo()">New TODO</button>
+      <div class="flow-right controls">
+        <span>Total: <span id="item-count">0</span></span>
+        <span>Unchecked: <span id="unchecked-count">0</span></span>
+		
+      </div class='fadeText'>
+      <ul id="todo-list" class="todo-list"></ul>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
+
